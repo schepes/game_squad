@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class playerController : MonoBehaviour
 {
-    public float moveSpeed = 1f;
+    public float moveSpeed = 0.00001f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
 
@@ -35,24 +35,35 @@ public class playerController : MonoBehaviour
         if (movementInput != Vector2.zero) {
            //raycasting for collision
           bool success = TryMove(movementInput);
-
           animator.SetBool("isMoving", success);
         } else {
            animator.SetBool("isMoving", false);
         }
 
-        //set direction of sprite movement direction
+        //set direction of sprite movement direction animation
         if (movementInput.x < 0) {
             spriteRenderer.flipX = true;
         } else if (movementInput.x > 0) {
-        spriteRenderer.flipX = false;
+            spriteRenderer.flipX = false;
+        }
+
+        //animation for moving up and down
+        if (movementInput.y < 0) {
+            animator.SetBool("isMovingDown", true);
+            animator.SetBool("isMovingUp", false);
+        } else if (movementInput.y > 0) {
+            animator.SetBool("isMovingUp", true);
+            animator.SetBool("isMovingDown", false);
+        } else {
+            animator.SetBool("isMovingUp", false);
+            animator.SetBool("isMovingDown", false);
         }
 
     }
 
     private bool TryMove(Vector2 direction) {
         //Raycast: checking for potential collisions to see if move is valid
-        //otherwise player wouldn't interract with world at all
+        //otherwise player wouldn't interact with world at all
        int count =  rb.Cast(
             movementInput,  //X and Y values between -1 and 1 that represent direction from the body to look for collisions
             movementFilter, //the settings that determine where a collision can occur on, such as layers to collide with
