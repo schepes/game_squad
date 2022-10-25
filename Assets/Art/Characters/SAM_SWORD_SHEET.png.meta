@@ -1,43 +1,7 @@
 fileFormatVersion: 2
-guid: 45b8259d524ad42c691b0202b41167a4
+guid: 39a9b8737b869b94bba01b2d59e93be5
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7405285554603418847
-    second: SAM_WALKING_SHEET_0
-  - first:
-      213: 3711059241935476007
-    second: SAM_WALKING_SHEET_1
-  - first:
-      213: -4934801065753159794
-    second: SAM_WALKING_SHEET_2
-  - first:
-      213: -5297009913891889040
-    second: SAM_WALKING_SHEET_3
-  - first:
-      213: -4874630138878068745
-    second: SAM_WALKING_SHEET_4
-  - first:
-      213: -4862020386700133023
-    second: SAM_WALKING_SHEET_5
-  - first:
-      213: 2087740901355746911
-    second: SAM_WALKING_SHEET_6
-  - first:
-      213: 5426013843647899578
-    second: SAM_WALKING_SHEET_7
-  - first:
-      213: 1086476969852986039
-    second: SAM_WALKING_SHEET_8
-  - first:
-      213: -5648625603416408761
-    second: SAM_WALKING_SHEET_9
-  - first:
-      213: -1758600690230899375
-    second: SAM_WALKING_SHEET_10
-  - first:
-      213: 8240729999190309972
-    second: SAM_WALKING_SHEET_11
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -99,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -118,19 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -142,7 +94,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,253 +117,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SAM_WALKING_SHEET_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 105
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12b1881e5042b3990800000000000000
-      internalID: -7405285554603418847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_1
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 105
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7259effe7b4508330800000000000000
-      internalID: 3711059241935476007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_2
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 105
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e87509e8390148bb0800000000000000
-      internalID: -4934801065753159794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_3
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 68
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07060ce4c8d3d76b0800000000000000
-      internalID: -5297009913891889040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_4
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 68
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f772c037b5d95cb0800000000000000
-      internalID: -4874630138878068745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_5
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 68
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16df708e732a68cb0800000000000000
-      internalID: -4862020386700133023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_6
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 34
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f56fc58d94529fc10800000000000000
-      internalID: 2087740901355746911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_7
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 34
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab72cf0b7d21d4b40800000000000000
-      internalID: 5426013843647899578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_8
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 34
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b2eab43c01f31f00800000000000000
-      internalID: 1086476969852986039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SAM_WALKING_SHEET_9
+      name: SAM_SWORD_SHEET (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 22
+        y: 98
+        width: 29
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d303ff0fc0c91b0800000000000000
-      internalID: -5648625603416408761
+      spriteID: 452d37856085b4841be88cda7ae274e4
+      internalID: -1132179768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAM_WALKING_SHEET_10
+      name: SAM_SWORD_SHEET (1)_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 22
+        x: 37
+        y: 98
+        width: 29
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dc70d5df13897e0800000000000000
-      internalID: -1758600690230899375
+      spriteID: 76e42f047355ff14cb586b3a0e32b335
+      internalID: -359184448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SAM_WALKING_SHEET_11
+      name: SAM_SWORD_SHEET (1)_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 0
-        width: 22
-        height: 30
+        x: 76
+        y: 99
+        width: 30
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45cb4a3e544fc5270800000000000000
-      internalID: 8240729999190309972
+      spriteID: 5a74b2e84a159c1498c237d2fec54e16
+      internalID: 306260999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 99
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942f3f2774fca584f92dafa8620caba3
+      internalID: 1501417975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 62
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bec32788bea4704588a478adf25595a
+      internalID: 1350524380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 62
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a874ec657db5e8148a0b5412fc1e6475
+      internalID: 775278570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec73f57793918843bb4cc661f7097d8
+      internalID: -1573363031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 64
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b98af612a75428458ee337b758a1173
+      internalID: 517954584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 34
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1411c2d9b93f4747a5b8cb1a854346e
+      internalID: 363506353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 34
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a995a9b7289e82c49b25f42463acd93c
+      internalID: 658782243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7a7733ce9cb4d4bab78d07f3dec855
+      internalID: 1620493588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAM_SWORD_SHEET (1)_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60e7ff2620b6be4bbb95e685ff6ff8d
+      internalID: -149552317
       vertices: []
       indices: 
       edges: []
@@ -415,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SAM_WALKING_SHEET_10: -1758600690230899375
-      SAM_WALKING_SHEET_2: -4934801065753159794
-      SAM_WALKING_SHEET_3: -5297009913891889040
-      SAM_WALKING_SHEET_6: 2087740901355746911
-      SAM_WALKING_SHEET_1: 3711059241935476007
-      SAM_WALKING_SHEET_5: -4862020386700133023
-      SAM_WALKING_SHEET_9: -5648625603416408761
-      SAM_WALKING_SHEET_4: -4874630138878068745
-      SAM_WALKING_SHEET_8: 1086476969852986039
-      SAM_WALKING_SHEET_11: 8240729999190309972
-      SAM_WALKING_SHEET_0: -7405285554603418847
-      SAM_WALKING_SHEET_7: 5426013843647899578
+      SAM_SWORD_SHEET (1)_11: -149552317
+      SAM_SWORD_SHEET (1)_6: -1573363031
+      SAM_SWORD_SHEET (1)_10: 1620493588
+      SAM_SWORD_SHEET (1)_7: 517954584
+      SAM_SWORD_SHEET (1)_9: 658782243
+      SAM_SWORD_SHEET (1)_3: 1501417975
+      SAM_SWORD_SHEET (1)_0: -1132179768
+      SAM_SWORD_SHEET (1)_1: -359184448
+      SAM_SWORD_SHEET (1)_5: 775278570
+      SAM_SWORD_SHEET (1)_2: 306260999
+      SAM_SWORD_SHEET (1)_8: 363506353
+      SAM_SWORD_SHEET (1)_4: 1350524380
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

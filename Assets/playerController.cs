@@ -8,6 +8,7 @@ public class playerController : MonoBehaviour
     public float moveSpeed = 0.00001f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    public SwordAttack swordAttack;
 
     Vector2 movementInput;  //direction of vector
     SpriteRenderer spriteRenderer;   //rendering correct direction of sprite
@@ -18,6 +19,8 @@ public class playerController : MonoBehaviour
     Animator animator;
 
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
+
+    bool canMove = true;
 
     // Start is called before the first frame update
     void Start()
@@ -32,31 +35,54 @@ public class playerController : MonoBehaviour
     private void FixedUpdate() {
         //no acceleration, either moving or not moving (no input, just idle) no raycasts needed
         //if player is trying to move
-        if (movementInput != Vector2.zero) {
-           //raycasting for collision
-          bool success = TryMove(movementInput);
-          animator.SetBool("isMoving", success);
-        } else {
-           animator.SetBool("isMoving", false);
-        }
+        if (canMove)
+        {
+            animator.SetBool("isMoving", false);
+            if (movementInput != Vector2.zero)
+            {
+                //raycasting for collision
+                bool success = TryMove(movementInput);
+                if(!success && movementInput.x > 0)
+                {
+                    success = TryMove(new Vector2(movementInput.x, 0));
+                }
+                if(!success && movementInput.y > 0)
+                {
+                    success = TryMove(new Vector2(0, movementInput.y));
+                }
+                animator.SetBool("isMoving", success);
+            }
+            else
+            {
+                animator.SetBool("isMoving", false);
+            }
 
-        //set direction of sprite movement direction animation
-        if (movementInput.x < 0) {
-            spriteRenderer.flipX = true;
-        } else if (movementInput.x > 0) {
-            spriteRenderer.flipX = false;
-        }
+            //set direction of sprite movement direction animation
+            if (movementInput.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if (movementInput.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }
 
-        //animation for moving up and down
-        if (movementInput.y < 0) {
-            animator.SetBool("isMovingDown", true);
-            animator.SetBool("isMovingUp", false);
-        } else if (movementInput.y > 0) {
-            animator.SetBool("isMovingUp", true);
-            animator.SetBool("isMovingDown", false);
-        } else {
-            animator.SetBool("isMovingUp", false);
-            animator.SetBool("isMovingDown", false);
+            //animation for moving up and down
+            if (movementInput.y < 0)
+            {
+                animator.SetBool("isMovingDown", true);
+                animator.SetBool("isMovingUp", false);
+            }
+            else if (movementInput.y > 0)
+            {
+                animator.SetBool("isMovingUp", true);
+                animator.SetBool("isMovingDown", false);
+            }
+            else
+            {
+                animator.SetBool("isMovingUp", false);
+                animator.SetBool("isMovingDown", false);
+            }
         }
 
     }
@@ -81,5 +107,39 @@ public class playerController : MonoBehaviour
     
     void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
+    }
+
+    public void OnFire()
+    {
+        animator.SetTrigger("swordAttack");
+    }
+
+    public void SwordAttack()
+    {
+        LockMovement();
+        if (spriteRenderer.flipX == true)
+        {
+            swordAttack.AttackLeft();
+        } else
+        {
+            swordAttack.AttackRight();
+        }
+
+    }
+
+    public void EndSwordAttack()
+    {
+        UnlockMovement();
+        swordAttack.StopAttack();
+    }
+
+    public void LockMovement()
+    {
+        canMove = false;
+    }
+
+    public void UnlockMovement()
+    {
+        canMove = true;
     }
 }
