@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a8dae564c2e34954b71b7f3d86eb2aa
+guid: 90d484dd169684fbf8c8c3ab28f56af6
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -618,7 +618,7 @@ TextureImporter:
       213: -4311998397474926877
     second: background_recycle.world.png_204
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -639,6 +639,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -677,6 +678,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -704,6 +706,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -5032,6 +5046,212 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      background_recycle.world.png_173: 8434455019564118133
+      background_recycle.world.png_136: 6998349477599515646
+      background_recycle.world.png_42: -4396116717459665079
+      background_recycle.world.png_187: 8485657157814309800
+      background_recycle.world.png_25: 5538450275697758020
+      background_recycle.world.png_47: -767000286489662850
+      background_recycle.world.png_70: 7994456813001885043
+      background_recycle.world.png_133: -8643950617135309091
+      background_recycle.world.png_142: -6508963358684088409
+      background_recycle.world.png_169: -7711708390107783927
+      background_recycle.world.png_102: 5588052266473668840
+      background_recycle.world.png_151: -3878082118058133240
+      background_recycle.world.png_148: 7230640942155890315
+      background_recycle.world.png_88: 1235382105588271365
+      background_recycle.world.png_16: -8533295520198873321
+      background_recycle.world.png_7: -2007280751817426560
+      background_recycle.world.png_0: 5049034987056033896
+      background_recycle.world.png_36: -6171066962253364661
+      background_recycle.world.png_80: -6358547121595296734
+      background_recycle.world.png_53: 3692495753298325948
+      background_recycle.world.png_115: 829789697872850313
+      background_recycle.world.png_143: 3837073922705043315
+      background_recycle.world.png_197: 1112382305601121058
+      background_recycle.world.png_170: -3112802946645981560
+      background_recycle.world.png_185: -2360783108210033388
+      background_recycle.world.png_107: -1922449936027489720
+      background_recycle.world.png_172: -4993267349484607282
+      background_recycle.world.png_124: 7573544758534610862
+      background_recycle.world.png_33: -6044143034921220506
+      background_recycle.world.png_55: -1843676840112844781
+      background_recycle.world.png_38: -6951155068180745477
+      background_recycle.world.png_162: 4929308556850085509
+      background_recycle.world.png_163: -7092381808788884374
+      background_recycle.world.png_109: -3738358789469933268
+      background_recycle.world.png_91: 2704559726287677505
+      background_recycle.world.png_66: 215057825761152799
+      background_recycle.world.png_117: -8921522077190123360
+      background_recycle.world.png_92: -8052719623881058043
+      background_recycle.world.png_177: 5029956554618049656
+      background_recycle.world.png_41: -3346609856085123870
+      background_recycle.world.png_140: -8049651386282124615
+      background_recycle.world.png_189: -582466638203417365
+      background_recycle.world.png_155: 4536775429124162549
+      background_recycle.world.png_50: 9009492095479528831
+      background_recycle.world.png_21: 5988387074381460516
+      background_recycle.world.png_201: 5119510978672947460
+      background_recycle.world.png_137: 3010638484592019688
+      background_recycle.world.png_123: 6939116926780638638
+      background_recycle.world.png_11: 8875619752493686161
+      background_recycle.world.png_128: -1929543233944084849
+      background_recycle.world.png_154: 8939689514505797670
+      background_recycle.world.png_94: -5531713666575477001
+      background_recycle.world.png_24: -9149555628704570310
+      background_recycle.world.png_193: -1240456919491771325
+      background_recycle.world.png_56: -4823910235636308017
+      background_recycle.world.png_81: 6179129562569522555
+      background_recycle.world.png_99: -2897831107805442835
+      background_recycle.world.png_120: 6692690404750108889
+      background_recycle.world.png_191: 4221845894017152519
+      background_recycle.world.png_103: -5111370230899895189
+      background_recycle.world.png_3: -4118917063896606494
+      background_recycle.world.png_204: -4311998397474926877
+      background_recycle.world.png_35: -4738608061202649070
+      background_recycle.world.png_8: 1271256118899307731
+      background_recycle.world.png_64: 5678509249644444124
+      background_recycle.world.png_200: 8689906663824336440
+      background_recycle.world.png_168: 4690447843041634286
+      background_recycle.world.png_183: -8010765260472127321
+      background_recycle.world.png_161: -1706595658626545964
+      background_recycle.world.png_135: 739930262954911440
+      background_recycle.world.png_85: -1693455581759989245
+      background_recycle.world.png_180: 5656077341051166060
+      background_recycle.world.png_2: -7489159969155927991
+      background_recycle.world.png_12: -4733048782869935891
+      background_recycle.world.png_97: 1082444945337311266
+      background_recycle.world.png_199: -8879800386488963307
+      background_recycle.world.png_82: 5849003817561807917
+      background_recycle.world.png_184: -2640779248720903168
+      background_recycle.world.png_30: -5364589363091451011
+      background_recycle.world.png_93: 4552259824156316473
+      background_recycle.world.png_179: -9097311317802032364
+      background_recycle.world.png_194: 2350881645006159615
+      background_recycle.world.png_17: -471120416309773134
+      background_recycle.world.png_29: -3084422130944327693
+      background_recycle.world.png_10: 4831004744692931154
+      background_recycle.world.png_14: -636567056399931076
+      background_recycle.world.png_139: -4901511542068599424
+      background_recycle.world.png_105: 4074496915995113158
+      background_recycle.world.png_46: 1503918720373179745
+      background_recycle.world.png_9: -7829034935173485499
+      background_recycle.world.png_65: 1376372006982226096
+      background_recycle.world.png_202: 7849787593692865134
+      background_recycle.world.png_54: -6361466784329923687
+      background_recycle.world.png_26: 9165064638227875719
+      background_recycle.world.png_131: -593457003572993340
+      background_recycle.world.png_108: 543287267431686500
+      background_recycle.world.png_147: -2915023806494588331
+      background_recycle.world.png_116: 5283594367156362728
+      background_recycle.world.png_61: -3129426007231284754
+      background_recycle.world.png_176: 3765105640618121188
+      background_recycle.world.png_150: -4978715607014206818
+      background_recycle.world.png_68: -5889457419398899541
+      background_recycle.world.png_114: -3095176247076738715
+      background_recycle.world.png_44: 4442324022350933051
+      background_recycle.world.png_1: -4418872257702841346
+      background_recycle.world.png_45: 5316053812663647993
+      background_recycle.world.png_78: -5267430599606024265
+      background_recycle.world.png_158: -3631961400633014978
+      background_recycle.world.png_112: -8214979937900438632
+      background_recycle.world.png_111: 4050084004901322433
+      background_recycle.world.png_32: 6541639512775240866
+      background_recycle.world.png_90: 8933213045408795537
+      background_recycle.world.png_167: -8966568731495187530
+      background_recycle.world.png_49: -3164757963439009301
+      background_recycle.world.png_23: -7275988928169566588
+      background_recycle.world.png_51: -1285842754190190430
+      background_recycle.world.png_89: -1172567813612115556
+      background_recycle.world.png_182: -337677011495070596
+      background_recycle.world.png_106: -7803645918815812263
+      background_recycle.world.png_28: -4199777212820092669
+      background_recycle.world.png_76: 202874349916802708
+      background_recycle.world.png_58: -504930728899334481
+      background_recycle.world.png_192: 4062517620861109935
+      background_recycle.world.png_164: 4092599607795387944
+      background_recycle.world.png_39: -7464841169093245204
+      background_recycle.world.png_71: 5662139418769126448
+      background_recycle.world.png_86: -4755210381745391182
+      background_recycle.world.png_37: -2620934947960937716
+      background_recycle.world.png_138: -7515168464805084933
+      background_recycle.world.png_122: 5101162176526580145
+      background_recycle.world.png_5: 7017479929111339613
+      background_recycle.world.png_67: 2338800408677490059
+      background_recycle.world.png_77: -4555995771096305971
+      background_recycle.world.png_74: -6326928274174375977
+      background_recycle.world.png_132: 6070502315510056676
+      background_recycle.world.png_101: 7502476846156903301
+      background_recycle.world.png_130: -5870265005667505005
+      background_recycle.world.png_113: 3567737374669609321
+      background_recycle.world.png_127: -4150998882225165703
+      background_recycle.world.png_157: -8562883981837194887
+      background_recycle.world.png_22: 1308395765332784110
+      background_recycle.world.png_175: -3618876263284507353
+      background_recycle.world.png_72: 2396658635832944321
+      background_recycle.world.png_19: -1990337781790518746
+      background_recycle.world.png_156: -2491119868604116507
+      background_recycle.world.png_198: 8866734417145090292
+      background_recycle.world.png_119: -4304161070202250610
+      background_recycle.world.png_63: 7800944340623470118
+      background_recycle.world.png_196: 564662801020054792
+      background_recycle.world.png_134: 7328980769340434535
+      background_recycle.world.png_181: 390344930010616953
+      background_recycle.world.png_160: -6856268924912630745
+      background_recycle.world.png_73: 4469660418317617167
+      background_recycle.world.png_152: -8520044069561269441
+      background_recycle.world.png_96: 3368331436056330878
+      background_recycle.world.png_141: -9020877089798408198
+      background_recycle.world.png_144: 5144793520567336148
+      background_recycle.world.png_165: -7884763764885601457
+      background_recycle.world.png_110: -3235403393698804218
+      background_recycle.world.png_43: -8053190771305554003
+      background_recycle.world.png_153: 4037206834600193891
+      background_recycle.world.png_20: -4287317944258834290
+      background_recycle.world.png_118: -2974000546416002909
+      background_recycle.world.png_4: 6329110582695864583
+      background_recycle.world.png_75: -4889430414128295899
+      background_recycle.world.png_159: -8082858426679267538
+      background_recycle.world.png_100: -8958478449686042596
+      background_recycle.world.png_34: -707471310910044247
+      background_recycle.world.png_27: 3365936283506316351
+      background_recycle.world.png_40: 7917814006806408619
+      background_recycle.world.png_190: -656183414073642144
+      background_recycle.world.png_145: -3370954137684307717
+      background_recycle.world.png_48: 275678885940976334
+      background_recycle.world.png_57: -4211521294953435500
+      background_recycle.world.png_87: 2288115686673933872
+      background_recycle.world.png_95: -8384165877304158108
+      background_recycle.world.png_126: -4530324592789859075
+      background_recycle.world.png_79: 1771966857538471312
+      background_recycle.world.png_83: -4011754717381013749
+      background_recycle.world.png_18: -8768251008096511032
+      background_recycle.world.png_13: 5859838082853890607
+      background_recycle.world.png_203: -5643249223256570349
+      background_recycle.world.png_60: -7427635430950125129
+      background_recycle.world.png_52: -3045133136010529140
+      background_recycle.world.png_6: -5771744807872324358
+      background_recycle.world.png_149: -1550341232437167092
+      background_recycle.world.png_129: -1242619288728099783
+      background_recycle.world.png_186: -4116612261129777528
+      background_recycle.world.png_31: -2111029043587360064
+      background_recycle.world.png_171: 5560148419569920168
+      background_recycle.world.png_188: 8916993927037940345
+      background_recycle.world.png_59: 8125750936133752791
+      background_recycle.world.png_104: -3494387095268898834
+      background_recycle.world.png_15: -1182317426806965735
+      background_recycle.world.png_166: 8361050383525203067
+      background_recycle.world.png_125: -3539741288023410371
+      background_recycle.world.png_195: -1047057388888276453
+      background_recycle.world.png_178: -2921578687522376885
+      background_recycle.world.png_146: 920882330067335194
+      background_recycle.world.png_174: -959103138769631866
+      background_recycle.world.png_69: -6172139639418015067
+      background_recycle.world.png_62: 6188008774005429795
+      background_recycle.world.png_84: -7511682848380337190
+      background_recycle.world.png_121: 3250445838540200619
+      background_recycle.world.png_98: 4327528246444647068
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
