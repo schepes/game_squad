@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38817664d55f442ff82d1ee49b9c06ee
+guid: 19135b70741ec422fa0982ded0257341
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -435,7 +435,7 @@ TextureImporter:
       213: -7261061675244614203
     second: Carpets 4_143
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -456,6 +456,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -494,6 +495,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -521,6 +523,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3568,6 +3582,151 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Carpets 4_11: 434335606011616300
+      Carpets 4_88: 5346901571720857772
+      Carpets 4_81: -1909553443489143335
+      Carpets 4_72: -6841260426135416710
+      Carpets 4_44: -6036331256084105828
+      Carpets 4_14: -7028519944843145323
+      Carpets 4_82: 8313148512810659216
+      Carpets 4_70: 5741173334492973705
+      Carpets 4_92: 3561045919578459098
+      Carpets 4_41: 879264275398709965
+      Carpets 4_138: 4444463828447929
+      Carpets 4_22: 7014212700440894629
+      Carpets 4_77: -6887688989890925996
+      Carpets 4_31: 4031191850540654975
+      Carpets 4_51: -6678009404059229649
+      Carpets 4_48: 2579218486422740856
+      Carpets 4_134: 8445791802015022181
+      Carpets 4_98: 7116194766460899890
+      Carpets 4_112: -8410484178638728077
+      Carpets 4_39: -4339344864852320629
+      Carpets 4_113: 31205086991051680
+      Carpets 4_124: 3855712525505681321
+      Carpets 4_19: -183492215215340018
+      Carpets 4_109: -5725783388203774553
+      Carpets 4_130: 4705849743885158802
+      Carpets 4_127: 53729329720148225
+      Carpets 4_36: 5552887756109365263
+      Carpets 4_45: -2329214133843860983
+      Carpets 4_18: -6349429548075109722
+      Carpets 4_25: -4689908957379519347
+      Carpets 4_46: 2595617596015608323
+      Carpets 4_74: 3051849726325169722
+      Carpets 4_93: 1415228440827284747
+      Carpets 4_42: -273203049995311880
+      Carpets 4_23: 476539368581258301
+      Carpets 4_54: 2685385421994503377
+      Carpets 4_91: -1068702696420706073
+      Carpets 4_78: -8412303532038349611
+      Carpets 4_128: -8590071900691124028
+      Carpets 4_141: 6288064638329527484
+      Carpets 4_8: 7684127051199584953
+      Carpets 4_137: 426890438835082136
+      Carpets 4_3: -2490143334228121828
+      Carpets 4_13: 1062398869185951620
+      Carpets 4_107: -1452919479816234425
+      Carpets 4_30: 7710299621765955236
+      Carpets 4_68: 7684268880845177035
+      Carpets 4_6: 2863154143730318551
+      Carpets 4_52: -9003639283920416488
+      Carpets 4_9: -4011310907568252145
+      Carpets 4_63: 4432666685454968927
+      Carpets 4_102: 3359832676005661115
+      Carpets 4_111: 4600527943256246220
+      Carpets 4_27: -8945579651677016434
+      Carpets 4_142: 4423410782642089037
+      Carpets 4_64: -225699768015469257
+      Carpets 4_85: 4476214754979340315
+      Carpets 4_89: -3655343908962402837
+      Carpets 4_105: -4233710870875491458
+      Carpets 4_1: -6634313087792512674
+      Carpets 4_71: -3759933831328235956
+      Carpets 4_96: -3023350354967947316
+      Carpets 4_79: 1955843120324688095
+      Carpets 4_84: 8467914344227891297
+      Carpets 4_135: 6747683375539026264
+      Carpets 4_126: 4103374972904701892
+      Carpets 4_129: 4691966883905815247
+      Carpets 4_4: -1492921498900957536
+      Carpets 4_119: 4136203874923651240
+      Carpets 4_117: -9107599726688411345
+      Carpets 4_69: 872974442414775902
+      Carpets 4_108: 2020051643784321163
+      Carpets 4_118: 7436571787427640194
+      Carpets 4_133: 755164337876367062
+      Carpets 4_115: -73498245502970528
+      Carpets 4_21: -2658030650329255573
+      Carpets 4_120: -5730907229038175278
+      Carpets 4_60: -4925052103098185669
+      Carpets 4_53: -6999350823101700830
+      Carpets 4_34: -1218939809992069408
+      Carpets 4_139: -5981250207896321933
+      Carpets 4_0: 1458221908334826465
+      Carpets 4_16: -5906853671598475918
+      Carpets 4_116: -6334171121442388551
+      Carpets 4_65: -5156567815963548821
+      Carpets 4_47: -2011094618555295657
+      Carpets 4_87: -8189850750923448841
+      Carpets 4_59: 8166540743041322926
+      Carpets 4_33: -7546066137223884340
+      Carpets 4_37: 8915208167150318647
+      Carpets 4_50: -3729537871116228425
+      Carpets 4_35: 4245503017690754482
+      Carpets 4_61: 893443162325037799
+      Carpets 4_83: 2720349900401101030
+      Carpets 4_5: -7604423070980207297
+      Carpets 4_15: -7413941149222752498
+      Carpets 4_24: 7396475635415053576
+      Carpets 4_38: -2631899968725526446
+      Carpets 4_56: -2898192275569898119
+      Carpets 4_122: 4040093751863852686
+      Carpets 4_123: 6840163527909776366
+      Carpets 4_40: 2291776323192012589
+      Carpets 4_66: -1069759368164726174
+      Carpets 4_29: 4661607691655998126
+      Carpets 4_7: 2684458663292517703
+      Carpets 4_49: 8198015189152793039
+      Carpets 4_76: 297883220893177003
+      Carpets 4_80: -1686082901275668538
+      Carpets 4_67: -5957444677993331082
+      Carpets 4_121: -1306494787881097053
+      Carpets 4_140: 9127831467979531485
+      Carpets 4_26: -3719725946800835062
+      Carpets 4_28: 476810733657986677
+      Carpets 4_10: 5826862045426821116
+      Carpets 4_62: -6623844359305023012
+      Carpets 4_97: 8482603776729281051
+      Carpets 4_75: 4053757254838152811
+      Carpets 4_106: -8340255350915783976
+      Carpets 4_136: 7251963234744622346
+      Carpets 4_20: -4528264035698598973
+      Carpets 4_43: 5325964285768849207
+      Carpets 4_55: 6019400416239019006
+      Carpets 4_143: -7261061675244614203
+      Carpets 4_94: 6640226263225215360
+      Carpets 4_110: 4677876830641968144
+      Carpets 4_100: 3748024371540079568
+      Carpets 4_99: 2923811837738921971
+      Carpets 4_86: 2904027020519156662
+      Carpets 4_95: -6270612027622615961
+      Carpets 4_32: -3990286335299351863
+      Carpets 4_57: -2427012352323706365
+      Carpets 4_58: 874128050918220198
+      Carpets 4_2: 6738611449171735314
+      Carpets 4_17: 8855208840705447292
+      Carpets 4_104: 8709295002913573281
+      Carpets 4_125: -5848334799089497289
+      Carpets 4_73: -7753883116826609254
+      Carpets 4_103: -308954401067026164
+      Carpets 4_114: 8094860251327152406
+      Carpets 4_12: -4967036344879652926
+      Carpets 4_101: 4601656016065767449
+      Carpets 4_131: -2102564698561514462
+      Carpets 4_90: 8796887311755411359
+      Carpets 4_132: -6704001511408845572
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
