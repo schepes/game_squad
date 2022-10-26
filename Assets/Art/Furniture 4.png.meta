@@ -90,7 +90,7 @@ TextureImporter:
       213: 928517590119157353
     second: Furniture 4_28
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -111,6 +111,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -149,6 +150,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -176,6 +178,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -808,6 +822,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Furniture 4_13: -5790350512266318504
+      Furniture 4_0: -4608435887851721819
+      Furniture 4_27: -507682994400858465
+      Furniture 4_4: -5380422215874047540
+      Furniture 4_1: 5672290735333424014
+      Furniture 4_22: -3802294754354289961
+      Furniture 4_20: -3412385831027025946
+      Furniture 4_23: 2576378149338721585
+      Furniture 4_28: 928517590119157353
+      Furniture 4_11: -2268116974853142148
+      Furniture 4_12: -8434118592799201401
+      Furniture 4_25: -6369665661890246896
+      Furniture 4_15: 1890336664475503470
+      Furniture 4_26: -8823017176461715861
+      Furniture 4_6: -7497486037066498169
+      Furniture 4_16: -5099909256834928398
+      Furniture 4_9: 8894462955777976548
+      Furniture 4_10: 4640526950771485854
+      Furniture 4_8: -5308566946106837677
+      Furniture 4_18: 3841340501184108326
+      Furniture 4_24: -3044671379506808499
+      Furniture 4_17: 4481416449386683607
+      Furniture 4_7: -2108233150516358447
+      Furniture 4_19: -7250992417062912922
+      Furniture 4_3: 5521499302797046219
+      Furniture 4_5: 2305518573135445969
+      Furniture 4_2: -234359869130779946
+      Furniture 4_14: 5335516946258230813
+      Furniture 4_21: 6014147418186738206
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
