@@ -102,7 +102,7 @@ TextureImporter:
       213: 7125716193376980962
     second: 4 Walls, Floor & Doors_32
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -123,6 +123,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -161,6 +162,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -188,6 +190,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -904,6 +918,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      4 Walls, Floor & Doors_15: -961584323847079979
+      4 Walls, Floor & Doors_12: 824275105837740816
+      4 Walls, Floor & Doors_25: 2213668745144650620
+      4 Walls, Floor & Doors_13: -7762765219581579089
+      4 Walls, Floor & Doors_28: 1220254607605094333
+      4 Walls, Floor & Doors_10: -995836052970923972
+      4 Walls, Floor & Doors_32: 7125716193376980962
+      4 Walls, Floor & Doors_24: 4200246029784286648
+      4 Walls, Floor & Doors_18: -5319617612527511085
+      4 Walls, Floor & Doors_2: -2908543731855481658
+      4 Walls, Floor & Doors_20: 8111445457515201744
+      4 Walls, Floor & Doors_6: -3069942548675036020
+      4 Walls, Floor & Doors_0: -5290906568474672631
+      4 Walls, Floor & Doors_29: 7957644723110387355
+      4 Walls, Floor & Doors_16: 8187266295043275681
+      4 Walls, Floor & Doors_8: -6823343806170359522
+      4 Walls, Floor & Doors_17: 7520673804015861600
+      4 Walls, Floor & Doors_27: -197076046723589693
+      4 Walls, Floor & Doors_23: -5901060159798938799
+      4 Walls, Floor & Doors_7: 3744470721685634320
+      4 Walls, Floor & Doors_9: 2839128024928216902
+      4 Walls, Floor & Doors_11: -3745829149577504140
+      4 Walls, Floor & Doors_21: -319755151125800394
+      4 Walls, Floor & Doors_1: -1382576993425946164
+      4 Walls, Floor & Doors_30: 1744191613674172122
+      4 Walls, Floor & Doors_4: -834978898624062575
+      4 Walls, Floor & Doors_19: -962506695718170800
+      4 Walls, Floor & Doors_31: -5112720942304269013
+      4 Walls, Floor & Doors_22: 1711553375554414674
+      4 Walls, Floor & Doors_3: -5222903923065517376
+      4 Walls, Floor & Doors_5: 2029255823834812585
+      4 Walls, Floor & Doors_26: 8240207057375124594
+      4 Walls, Floor & Doors_14: 9103791283166470492
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
